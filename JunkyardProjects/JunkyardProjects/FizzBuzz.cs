@@ -21,11 +21,11 @@ namespace JunkyardProjects
 
         private void fizzbuzzBtn_Click(object sender, EventArgs e)
         {
-            for(int i = 1; i < 100; i++)
+            int userInput = Convert.ToInt16(inputTextBox.Text);
+            displayListBox.Items.Clear();
+            for (int i = 1; i < userInput; i++)
             {
-                //x3 = Fizz
-                //x5 = Buzz
-                //x3 & x5 = FizzBuzz
+                //x3 = Fizz, x5 = Buzz, x3 & x5 = FizzBuzz
                 if (i % 5 == 0 && i % 3 == 0)
                 {
                     displayListBox.Items.Add("(" + i + ") FizzBuzz!");
