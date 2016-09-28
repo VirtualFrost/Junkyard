@@ -22,5 +22,11 @@ namespace JunkyardProjects
             FizzBuzz fizzbuzzForm = new FizzBuzz(this);
             fizzbuzzForm.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FibonacciSequence fibonacciSequenceForm = new FibonacciSequence(this);
+            fibonacciSequenceForm.Show();
+        }
     }
 }

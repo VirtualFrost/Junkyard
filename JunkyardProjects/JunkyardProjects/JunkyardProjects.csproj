@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FibonacciSequence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FibonacciSequence.Designer.cs">
+      <DependentUpon>FibonacciSequence.cs</DependentUpon>
+    </Compile>
     <Compile Include="FizzBuzz.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FibonacciSequence.resx">
+      <DependentUpon>FibonacciSequence.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FizzBuzz.resx">
       <DependentUpon>FizzBuzz.cs</DependentUpon>
     </EmbeddedResource>
