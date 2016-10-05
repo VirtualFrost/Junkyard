@@ -28,5 +28,11 @@ namespace JunkyardProjects
             FibonacciSequence fibonacciSequenceForm = new FibonacciSequence(this);
             fibonacciSequenceForm.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ToLeetSpeak toLeetSpeakForm = new ToLeetSpeak(this);
+            toLeetSpeakForm.Show();
+        }
     }
 }
