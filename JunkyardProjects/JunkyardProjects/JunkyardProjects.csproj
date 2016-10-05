@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FibonacciSequence.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FibonacciSequence.Designer.cs">
-      <DependentUpon>FibonacciSequence.cs</DependentUpon>
-    </Compile>
     <Compile Include="FizzBuzz.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,9 +66,6 @@
     <Compile Include="ToLeetSpeak.Designer.cs">
       <DependentUpon>ToLeetSpeak.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="FibonacciSequence.resx">
-      <DependentUpon>FibonacciSequence.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="FizzBuzz.resx">
       <DependentUpon>FizzBuzz.cs</DependentUpon>
     </EmbeddedResource>
